@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/name"
+       android:hint="Enter Name"
+       android:layout_gravity="center"
+       android:gravity="center"
+       android:layout_marginHorizontal="150dp"
+       android:layout_margin="20dp"
+       />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="send"
+        android:backgroundTint="#7B8EF6"
+        android:layout_marginHorizontal="100dp"
+        android:gravity="left"
+        android:onClick="send"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/number"
+        android:hint="Enter Number"
+        android:layout_marginHorizontal="150dp"
+        android:layout_margin="20dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="call"
+        android:backgroundTint="@color/cardview_shadow_start_color"
+        android:layout_marginHorizontal="100dp"
+        android:gravity="left"
+        android:onClick="call"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/link"
+        android:hint="web site link"
+        android:layout_marginHorizontal="150dp"
+        android:layout_margin="20dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="search"
+        android:backgroundTint="@color/cardview_shadow_start_color"
+        android:layout_marginHorizontal="100dp"
+        android:gravity="left"
+        android:onClick="search"/>
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+  android:orientation="horizontal">
+ <EditText
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:id="@+id/open_chrome"
+     android:layout_weight="4.5"
+     android:layout_marginTop="15dp"
+  android:hint="welcome to you"
+  />
+ <ImageButton
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="welcome"
+  android:layout_weight="0.5"
+  android:src="@drawable/ic_round_call_24"
+  android:layout_marginTop="15dp"
+  android:onClick="welcome"
+     android:background="@null"
+     />
+
+ </LinearLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>
