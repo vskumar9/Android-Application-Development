@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "587602130263",
+    "project_id": "vskwhatsapp2",
+    "storage_bucket": "vskwhatsapp2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:587602130263:android:76dbc13b95b6a25a7cfa12",
+        "android_client_info": {
+          "package_name": "com.example.whatsapp2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "587602130263-3c5micp4490548ccjrtr1362o0rkip1c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8o7Mdt0j1TuHE-Gyvn0xEPny6bbCy5oU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "587602130263-3c5micp4490548ccjrtr1362o0rkip1c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

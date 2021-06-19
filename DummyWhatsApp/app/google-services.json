@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "831647907231",
+    "project_id": "dummywhatsapp12",
+    "storage_bucket": "dummywhatsapp12.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:831647907231:android:bc66b3ae4cecd93d55d1aa",
+        "android_client_info": {
+          "package_name": "com.example.dummywhatsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "831647907231-dcis0lkobo92absltmiagtgkv5ets278.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7skqbLoS7Wx6ahUsKl4t6DOS8G6tFfII"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "831647907231-dcis0lkobo92absltmiagtgkv5ets278.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
